@@ -15,7 +15,7 @@ define(function(require,exports,module){
 			"https://github.com/Martin0828/Martin0828.github.io/blob/master/img/loading3.png",
 			"https://github.com/Martin0828/Martin0828.github.io/blob/master/img/loading4.png",
 			"https://github.com/Martin0828/Martin0828.github.io/blob/master/img/loading5.png",
-			"https://github.com/Martin0828/Martin0828.github.io/blob/master/img/photo2.jpg",
+			"https://github.com/Martin0828/Martin0828.github.io/blob/master/img/photo3.jpg",
 			"https://github.com/Martin0828/Martin0828.github.io/blob/master/img/section1.png"
 		];
 		for(var i=0;i<aPic.length;i++){
