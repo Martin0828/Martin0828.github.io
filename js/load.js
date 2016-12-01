@@ -17,5 +17,5 @@ define(function(require,exports,module){
 			oText.innerHTML=num+"%";
 		}
 	}
-      exports.load=load;
+     load();
 })
