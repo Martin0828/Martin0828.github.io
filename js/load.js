@@ -6,7 +6,7 @@ define(function(require,exports,module){
 		var oShadow=document.getElementById("shadow");
 		var oText=document.getElementById("text");
 		window.location.hash="message";
-		var num=0;file:///F:/git/img/
+		var num=0;
 		var aPic=["https://github.com/Martin0828/Martin0828.github.io/blob/master/img/person.ico",
 			"https://github.com/Martin0828/Martin0828.github.io/blob/master/img/bg1.jpg",
 			"https://github.com/Martin0828/Martin0828.github.io/blob/master/img/bg2.jpg",
