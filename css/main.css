@@ -1,3 +1,4 @@
+/*================初始化====================*/
 body,ul,li,h1,h2,h3,h4,p{margin:0;padding:0;}
 a{text-decoration:none;}
 ul{list-style:none;}
@@ -12,7 +13,6 @@ body{font-family:"微软雅黑";}
 #page-two{background:url(../img/bg2.jpg) no-repeat;background-size:100% 722px;position:relative;}
 #page-three{background:url(../img/bg3.jpg) no-repeat;background-size:100% 722px;}
 #page-four{background:url(../img/bg-4.png) no-repeat;background-size:100% 722px;}
-#page-five{background:url(../img/bg5.jpg) no-repeat;background-size:contain;}
 /*============================================*/
 /*==============加载动画======================*/
 #load{width:120px;height:140px;position:absolute;left:calc(50% - 60px);top:calc(50% - 70px);opacity:1;}
