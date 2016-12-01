@@ -71,7 +71,7 @@ body{font-family:"微软雅黑";}
 .wrap div{position:absolute;top:32px;width:100%;left:0;transform-style:preserve-3d;
 		transform:rotateX(-120deg);transform-origin:top;}
 .wrap span{display:block;height:32px;font:14px/32px "微软雅黑";color:#fff;
-	text-indent: 20px;box-shadow:inset 0 0 0 20px rgba(0,0,0,.7);transition:1s;}
+	text-indent: 10px;box-shadow:inset 0 0 0 20px rgba(0,0,0,.7);transition:1s;}
 .wrap span:hover{box-shadow:inset 0 0 0 20px rgba(255,103,0,1);}	
 .wrap .show{animation:1.2s show;transform:rotateX(0deg);}
 @keyframes show{
