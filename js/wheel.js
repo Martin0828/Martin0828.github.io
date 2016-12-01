@@ -37,8 +37,8 @@ define(function(require,exports,module){
 				if(num>0){
 					num=0;
 				}
-				else if(num<-4){
-					num=-4;
+				else if(num<-3){
+					num=-3;
 				}
 				window.onhashchange=function(){
 					switch(num){
@@ -70,9 +70,6 @@ define(function(require,exports,module){
 						case -3:
 						require("pageFour.js").initIn();
 						break;
-						case -4:
-						require("pageFive.js").initIn();
-						break;
 					}
 					
 				}
@@ -93,4 +90,8 @@ define(function(require,exports,module){
 		}	
 	}
 	exports.wheel=wheel;
+// <<<<<<< HEAD
 })
+// =======
+// })
+// >>>>>>> origin/master
