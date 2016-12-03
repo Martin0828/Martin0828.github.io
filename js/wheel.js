@@ -56,6 +56,7 @@ define(function(require,exports,module){
 						setTimeout(function(){
 							require("pageTwo.js").initIn(canvas);
 						},1000);
+						require("pageThree").initOut();
 						break;
 						case -2:
 						
@@ -68,7 +69,10 @@ define(function(require,exports,module){
 						},1500)
 						break;
 						case -3:
-						require("pageFour.js").initIn();
+						setTimeout(function(){
+							require("pageFour.js").initIn();
+						},1000);
+						require("pageThree.js").initOut();
 						break;
 					}
 					
