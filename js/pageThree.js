@@ -4,7 +4,7 @@ define( function( require, exports, module){
 	var aA = oPro.getElementsByTagName("a");
 	
 	function initIn(){
-		var str = '<a href="https://github.com/Martin0828/Martin0828.github.io/blob/master/index.html"><img src="img/tree.jpg" alt="移动端"></a>\
+		var str = '<a href="https://martin0828.github.io/mobile/index.html"><img src="img/tree.jpg" alt="移动端"></a>\
 					<a><img src="img/huoying.png" alt="火盈"></a>\
 					<a><img src="img/trafic.png" alt="交通调查"></a>\
 					<a><img src="img/surway.png" alt=""></a>\
