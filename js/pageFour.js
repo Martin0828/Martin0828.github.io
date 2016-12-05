@@ -1,10 +1,14 @@
-define(function(require,exports,module){
+define( function( require, exports, module){
 	function initIn(){
-		console.log(3);
+		var oFooter = document.getElementsByClassName("footer")[0];
+		oFooter.style.opacity = 1;
 	}
+
 	function initOut(){
 		
 	}
+
 	exports.initIn=initIn;
 	exports.initOut=initOut;
+	
 })
