@@ -1,17 +1,17 @@
 define( function( require, exports, module){
 	var oPro = document.getElementsByClassName("project")[0];
 	var parent = document.getElementById("page-three");
-	var aImg = oPro.getElementsByTagName("img");
+	var aA = oPro.getElementsByTagName("a");
 	
 	function initIn(){
-		var str = '<img src="img/mi.png" alt="" href="https://github.com/Martin0828/Martin0828.github.io/blob/master/mobile/index.html">\
-					<img src="img/huoying.png" alt="">\
-					<img src="img/trafic.png" alt="">\
-					<img src="img/surway.png" alt="">\
-					<img src="img/shop.png" alt="">\
-					<img src="img/6.png" alt="">\
-					<img src="img/7.png" alt="">\
-					<img src="img/8.png" alt="">';
+		var str = '<a href="https://github.com/Martin0828/Martin0828.github.io/blob/master/index.html"><img src="img/tree.jpg" alt="移动端"></a>\
+					<a><img src="img/huoying.png" alt="火盈"></a>\
+					<a><img src="img/trafic.png" alt="交通调查"></a>\
+					<a><img src="img/surway.png" alt=""></a>\
+					<a><img src="img/shop.png" alt="商城"></a>\
+					<a><img src="img/mi.png" alt=""></a>\
+					<a><img src="img/7.png" alt=""></a>\
+					<a><img src="img/8.png" alt=""></a>';
 
 		oPro.innerHTML=str;
 
@@ -32,20 +32,20 @@ define( function( require, exports, module){
 		];
 
 		//每个img元素相对于定位父级的位置
-		for( var i = 0; i < aImg.length; i++ ){
-			posArr.push({ L : aImg[i].offsetLeft , T : aImg[i].offsetTop } );
+		for( var i = 0; i < aA.length; i++ ){
+			posArr.push( { L : aA[i].offsetLeft , T : aA[i].offsetTop } );
 		}	
 
 		//每个元素都绝对定位
-		for( var j = 0;j < aImg.length; j++ ){
-			aImg[j].style.position = "absolute";
-			aImg[j].style.left = posArr[j].L + "px";
-			aImg[j].style.top = posArr[j].T + "px";
-			aImg[j].index = j;
+		for( var j = 0;j < aA.length; j++ ){
+			aA[j].style.position = "absolute";
+			aA[j].style.left = posArr[j].L + "px";
+			aA[j].style.top = posArr[j].T + "px";
+			aA[j].index = j;
 		}
 
 		function moveInit(){	
-			var nowArr = moveArr[blankIndex];
+			var nowArr = moveArr[ blankIndex ];
 			var filterArr = [];  //新数组
 
 			for( var i=0;i < nowArr.length; i++ ){  //去除返回上次的可能性
@@ -60,11 +60,11 @@ define( function( require, exports, module){
 			var targetT = Math.floor( blankIndex / cols ) * 150 + "px";
 			var tmp = '';
 
-			for(var j = 0; j < aImg.length; j++ ){
-				if( aImg[j].index == nowIndex ){ 
-					aImg[j].style.left = targetL;
-					aImg[j].style.top = targetT;
-					aImg[j].addEventListener( "transitionend", change, false );
+			for(var j = 0; j < aA.length; j++ ){
+				if( aA[j].index == nowIndex ){ 
+					aA[j].style.left = targetL;
+					aA[j].style.top = targetT;
+					aA[j].addEventListener( "transitionend", change, false );
 				}
 			}
 
