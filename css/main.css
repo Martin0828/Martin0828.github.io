@@ -258,9 +258,10 @@ body {
 	position: absolute;
 	font: 40px/60px "宋体";
 	top: 70px; right: -200px;
-	 transition: .7s cubic-bezier( .13, 1.39, .86, 1.45 );
-	 -ms-transition: .7s cubic-bezier( .13, 1.39, .86, 1.45 );
-	 color: #fff;
+	/*========贝塞尔曲线==========*/
+	transition: .7s cubic-bezier( .13, 1.39, .86, 1.45 );  
+	-ms-transition: .7s cubic-bezier( .13, 1.39, .86, 1.45 );
+	color: #fff;
 }
 .study {
 	opacity: 0;
@@ -283,11 +284,15 @@ body {
 	margin: 0 auto;
 	top: 140px;
 }
-.project>img {
+.project>a {
+	display: inline-block;
 	width: 150px;
 	height: 150px;
 	float: left;
 	transition: 1s linear;
+}
+.project>a>img{
+	width: 100%;
 }
 /*===============结束页=======================*/
 .tel {
