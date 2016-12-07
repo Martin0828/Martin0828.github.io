@@ -1,0 +1,144 @@
+﻿
+
+
+@charset "utf-8";
+
+/* -------------------------------------------------------------- 
+	Resets default browser CSS.
+-------------------------------------------------------------- */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input
+{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+table, caption, tbody, tfoot, thead, tr, th, td
+{margin:0;padding:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+body {line-height:1.5;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+input {border:none;}
+ul{list-style:none;}
+label{/*cursor:pointer;*/color:#666;}
+
+body {font-size:75%;color:#222;background:#f9fbe6;font-family:Helvetica, Arial,"宋体", sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-weight:bold;color:#000;}
+
+/*----- 结束 -----*/
+h2 {font-size:45px;float:left;color:#CCC;margin-top:10px;font-weight:normal;}
+h3 {font-size:16px;margin:8px 0;margin:8px 0 7px\0;color:#000;}
+h4 {font-size:14px;margin:8px 0;color:#666;}
+h5 {font-size:12px;margin:8px 0;color:#666;}
+h6 {font-size:12px;margin:8px 0;}
+
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+p {color:#666;}
+a:focus, a:hover {text-decoration:underline;}
+a {
+color:#666;
+text-decoration:none;
+cursor:pointer;
+blr:expression(this.onFocus=this.blur());/*ie 去除超链接虚线框 */
+outline:none;/*ff 去除超链接虚线框 */
+}
+span{color:#666;}
+textarea{overflow:hidden;}
+fieldset {padding:1.4em;margin:0 0 1.5em 0;border:1px solid #ccc;}
+legend {font-weight:bold;font-size:1.2em;}
+
+input.text:focus, input.title:focus, textarea:focus, select:focus {border:0;}
+input.text, input.title {width:300px;padding:5px;}
+input.title {font-size:1.5em;}
+
+
+
+
+
+input.text, input.title, textarea{margin:0 0;border:1px solid #dedede;font-size:12px;color:#666;font-family: Helvetica,Arial,"宋体",sans-serif;}
+/* 修改原因 IE7下文字位置偏下 */
+/*select{width:120px;float:left;padding:0;height:20px;line-height:20px;margin:0 0;}*/
+
+
+/*----- 2013-01-12 以下样式为标准版常用样式 maqt 开始 -----*/
+
+/*--------------------基本属性 开始-------------------*/
+.right{float:right !important;}
+.row {float:left; width:100%;}
+.left{float:left !important;}
+.clear{clear:both;}
+.overflow_hidden{overflow:hidden;clear:both;}
+.display_block{display:block;}
+.display_none{display:none;}
+.postion_relative{position: relative;}
+.cursor_pointer{cursor: pointer!important;}
+.curpointer_none{cursor: default!important;}
+
+.text_overflow{overflow: hidden;white-space: nowrap;-o-text-overflow: ellipsis;text-overflow: ellipsis;}
+.clearfloat{clear:both;height:0;font-size:1px;line-height:0px;}/*用于解决margin-bottom在ie7下失效的问题*/
+.text_nowrap{white-space: nowrap !important;}
+
+.border_bottom{border-bottom:solid 1px #DEDEDE;}
+.border_bottom_dash{border-bottom:dashed 1px #DEDEDE;}
+.border_top{border-top:solid 1px #DEDEDE;}
+.noborder{border:none !important;}
+.border_top_none{border-top: none !important;}
+.border_bottom_none{border-bottom: none !important;}
+.border_left_none{border-left: none !important;}
+.border_right_none{border-right: none !important;}
+
+.margin_left_none{margin-left:0 !important;}
+.margin_right_none{margin-right:0 !important;}
+.margin_bottom_none{margin-bottom:0 !important;}
+.margin_top_none{margin-top:0 !important;}
+.margin_top_10{margin-top:10px;}
+.margin_right_10{margin-right:10px;}
+.padding_bottom_none{padding-bottom:0 !important;}
+.padding_none{padding:0!important;}
+
+.text_align_left{text-align: left !important;}
+.text_align_right{text-align: right !important;}
+.text_align_center{text-align: center !important;}
+
+
+
+.graybold {font-weight:bold !important;}
+.black{color:#000 !important;}
+.blackbold {font-weight:bold;color:#000 !important;}
+.black_333{color:#333333!important;}
+.gray_666{color:#666666!important;}
+.lightgray{color:#999 !important;}
+.lightgray *{color:#999;}
+.lightgray_ccc{color: #ccc;}
+
+
+.script_red{color: #ff0000 !important;}
+
+
+.green{font-weight:normal;color:#0a7421 !important;}
+.greenbold{color:#390;font-weight:bold;}
+
+
+
+input.input_btn{
+color:#FFF;
+cursor:pointer;
+height:26px;
+width:52px;
+background:url(../../comm/image/homepage/class_picture.png) no-repeat -95px -26px;
+}
+input.input_btn_2{
+background: url(../image/common/dark_blue_btn_wide.png) no-repeat scroll 0 0 transparent;
+color: #FFF;
+cursor: pointer;
+height: 26px;
+width: 100px;
+}
+input.input_btn_3{
+color:#FFF;
+cursor:pointer;
+height:26px;
+width:75px;
+background:url(../image/common/dark_blue_btn_wide75.png) no-repeat 0 0;
+}
