@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<meta name="keywords" content="" />
+<meta name="decription" content="" />
+<title></title>
+<link href="css/global.css" media="screen" rel="stylesheet"
+	type="text/css" />
+<link href="css/traffic_survey.css" media="screen" rel="stylesheet"
+	type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/survey.js"></script>
+<script type="text/javascript" src="js/traffic_survery.js"></script>
+<style>
+/* JQuery SelectBox */
+</style>
+</head>
+<body>
+	<div id="" class="traffic_content">
+	
+		<div class="traffic_title_01">城六区中学和小学学生通学交通调查</div>
+		<div class="traffic_step_bar">
+			<div class="traffic_step_box ts_checked">
+				<span class="ts_number">1</span> <span class="ts_letter">登录</span>
+			</div>
+			<div class="traffic_step_box">
+				<span class="ts_number">2</span> <span class="ts_letter">填表</span>
+			</div>
+			<div class="traffic_step_box">
+				<span class="ts_number">3</span> <span class="ts_letter">问卷</span>
+			</div>
+			<div class="traffic_step_box">
+				<span class="ts_number">4</span> <span class="ts_letter">成功</span>
+			</div>
+		</div>
+		<div class="traffic_box_06">
+			<div class="tsb_top_01"></div>
+			<div class="tsb_mid_01">
+				<span class="traffic_title_04">用户登录</span>
+				<div class="tsi_relative">
+					<div class="tsi_selebar" style="z-index: 25;">
+
+						<span class="jquery-selectbox-currentItem"></span> <select
+							id="searchCategory" class="jquery-selectbox-moreButton"
+							onchange="changeSchool()">
+							<option>选择区县</option>
+							<option value="school_dc">东城区</option>
+							<option value="school_xc">西城区</option>
+							<option value="school_ft">丰台区</option>
+							<option value="school_hd">海淀区</option>
+							<option value="school_cy">朝阳区</option>
+						</select>
+
+					</div>
+
+					<div class="tsi_selebar" style="z-index: 24;">
+
+
+
+						<span class="jquery-selectbox-currentItem"></span> <select
+							id="searchCategory_a" class="jquery-selectbox-moreButton"
+							onchange="changeClass()">
+							<option disabled="true">选择学校</option>
+						</select>
+
+
+					</div>
+					<div class="tsi_selebar" style="z-index: 23;">
+
+						<span class="jquery-selectbox-currentItem"></span> <select
+							id="searchCategory_b" class="jquery-selectbox-moreButton">
+							<option disabled="true">选择班级</option>
+
+						</select>
+
+					</div>
+					
+						<div class="ts_select_bar">
+							<input type="text" class="tss_input_01" id="student1" onchange="check('1')"/> <div
+								class="script_red" id="check1"></div>
+						</div>
+						<div class="ts_select_bar">
+							<input type="text" class="tss_input_01" id="student2" onchange="check('2')"/> <div
+								class="script_red" id="check2"></div>
+						</div>
+					<form action="loginAction.action" method="post" id="login">
+						<div class="ts_select_bar">
+							<input type="text" class="tss_input_01" name="username" id="username"/> <span
+								class="script_red">姓名</span>
+						</div>
+						<div class="ts_select_bar">
+							<input type="text" class="tss_input_01" name="password" id="password"/> <span
+								class="script_red">学籍号</span>
+						</div>
+					</form>
+				</div>
+				
+				<div class="tsbtn_bar_01 margin_left_none">
+					<input type="button" value="登录" class="ts_btn ts_margin_07" onclick="login()" id="loginClick"/>
+					<input type="button" value="获得学籍号" class="ts_btn_02 ts_margin_08" onclick="queRule()"/>
+				</div>
+				
+			</div>
+			
+		</div>
+
+	</div>
+	<script type="text/javascript">
+		
+	</script>
+</body>
+</html>
