@@ -1,0 +1,756 @@
+.traffic_container{
+width:1003px;
+min-height:800px;
+background-color:#f9fbe6;
+margin:0 auto;
+background:url(../image/traffic_surver_bg.jpg) no-repeat;
+}
+.traffic_content{
+width:1003px;
+min-height:600px;
+padding-bottom:200px;
+background:url(../image/traffic_bg.jpg) no-repeat;
+background-color:#f9fbe6;
+margin:0 auto;
+
+}
+.traffic_title_01{
+float:left;
+color:#007b32;
+font-size:40px;
+font-family:"microsoft yahei";
+text-align:center;
+width:100%;
+margin-top:54px;
+}
+.traffic_title_02{
+float:left;
+font-family:"microsoft yahei";
+font-size:14px;
+color:#333;
+line-height:20px;
+margin-top:10px;
+font-weight:bold;
+width:232px;
+}
+.traffic_title_03{
+float:left;
+font-family:"microsoft yahei";
+font-size:18px;
+color:#333;
+margin:0 0 12px 0;
+
+width:504px;
+text-align:center;
+}
+.traffic_title_04{
+float:left;
+font-family:"microsoft yahei";
+font-size:18px;
+color:#333;
+margin:0 0 12px 0;
+
+width:310px;
+}
+.traffic_title_05{
+float:left;
+font-family:"microsoft yahei";
+font-size:18px;
+color:#333;
+margin:0 0 3px 0;
+
+width:422px;
+text-align:center;
+}
+.traffic_title_06{
+float:left;
+font-family:"microsoft yahei";
+font-size:16px;
+color:#333;
+margin:0 0 12px 0;
+
+width:422px;
+text-align:center;
+}
+.traffic_title_07{
+float:left;
+font-family:"microsoft yahei";
+font-size:16px;
+color:#333;
+margin:0 0 0 0;
+
+width:504px;
+text-align:center;
+}
+.traffic_title_08{
+float:left;
+font-family:"microsoft yahei";
+font-size:18px;
+color:#333;
+
+
+}
+.traffic_box_01{
+float:left;
+width:420px;
+height:350px;
+margin:90px 0 0 109px;
+}
+.traffic_box_02{
+float:left;
+width:234px;
+height:260px;
+padding:10px 20px;
+}
+.traffic_box_03{
+float:right;
+width:273px;
+margin:110px 95px 0 0;
+}
+.traffic_box_04{
+float:left;
+width:264px;
+margin:49px 0 0 10px;
+}
+.traffic_box_05{
+float:left;
+width:548px;
+margin:38px 0 0 232px;
+}
+.traffic_box_06{
+float:left;
+width:350px;
+margin:40px 0 0 334px;
+}
+.traffic_box_07{
+float:left;
+width:466px;
+margin:41px 0 0 278px;
+padding-bottom:200px;
+}
+.traffic_home_span{
+float:left;
+height:46px;
+font-size:18px;
+line-height:44px;
+width:148px;
+padding-right:10px;
+text-align:right;
+font-family:"microsoft yahei";
+}
+.ts_margin_01{
+margin:20px 230px 0 0;
+}
+.ts_margin_02{
+float:right;
+margin:10px 26px 0 230px;
+}
+.ts_margin_03{
+margin:69px 230px 0 28px;
+}
+.ts_margin_04{
+float:right;
+margin:63px 0 0 230px;
+}
+.ts_margin_05{
+margin:0 25px 0 0;
+}
+.ts_margin_06{
+padding-left:38px!important;
+margin:20px 25px 0 195px;
+}
+.ts_margin_07{
+padding-left:38px!important;
+margin:0 12px 0 5px;
+}
+.ts_margin_08{
+padding-left:24px!important;
+margin:1px 0 0 0;
+}
+.ts_margin_09{
+margin:-5px 0 0 10px!important;
+}
+.ts_margin_10{
+margin:10px 0 0 57px!important;
+padding-left:40px!important;
+}
+.ts_margin_11{
+padding-left:38px!important;
+margin:0 12px 0 35px;
+}
+.traffic_home_p{
+float:left;
+width:232px;
+height:200px;
+word-break:break-all;
+word-wrap:break-word;
+font-family:"microsoft yahei";
+color:#0a7421;
+color:#333;
+line-height:20px;
+text-indent:2em;
+margin:4px 0 0 0;
+}
+.ts_rule_p{
+float:left;
+width:504px;
+word-break:break-all;
+word-wrap:break-word;
+color:#333;
+line-height:20px;
+text-indent:2em;
+margin:1px 0 0 0;
+font-size:14px;
+}
+.traffic_link_01{
+float:right;
+font-family:"microsoft yahei";
+margin-top:3px;
+height:18px;
+line-height:18px;
+width:232px;
+text-align:right;
+}
+.traffic_link_02{
+float:left;
+font-family:"microsoft yahei";
+margin:8px 0 0 5px;
+height:18px;
+line-height:18px;
+}
+.ts_btn{
+float:left;
+width:119px;
+height:45px;
+padding-left: 22px;
+padding-left: 23px\9;
+padding-bottom:5px;
+font-family:"microsoft yahei";
+color:#0a7421;
+font-size:16px;
+cursor:pointer;
+text-align:left;
+background:url(../image/traffic_sprite.png) no-repeat -1px -1px;
+}
+.ts_btn_02{
+float:left;
+width:156px;
+height:45px;
+padding-left: 22px;
+padding-left: 23px\9;
+padding-bottom:6px;
+font-family:"microsoft yahei";
+color:#0a7421;
+font-size:16px;
+cursor:pointer;
+text-align:left;
+background:url(../image/traffic_sprite.png) no-repeat -123px -49px;
+}
+.ts_btn_03{
+float:left;
+width:156px;
+height:45px;
+padding-left: 22px;
+padding-left: 23px\9;
+padding-bottom:6px;
+font-family:"microsoft yahei";
+color:#0a7421;
+font-size:16px;
+cursor:pointer;
+text-align:left;
+background:url(../image/traffic_sprite.png) no-repeat -123px -2px;
+}
+.ts_btn_04{
+float:left;
+width:119px;
+height:45px;
+padding-left: 22px;
+padding-left: 23px\9;
+padding-bottom:6px;
+font-family:"microsoft yahei";
+color:#807207;
+font-size:16px;
+cursor:pointer;
+text-align:left;
+margin-top:1px;
+background:url(../image/traffic_sprite.png) no-repeat -1px -49px;
+}
+.tsb_top_01{
+float:left;
+width:350px;
+height:19px;
+background:url(../image/traffic_sprite.png) no-repeat -1px -161px;
+}
+.tsb_top_02{
+float:left;
+width:548px;
+height:17px;
+background:url(../image/traffic_sprite.png) no-repeat -1px -98px;
+}
+.tsb_top_03{
+float:left;
+width:466px;
+height:19px;
+background:url(../image/traffic_sprite.png) no-repeat -1px -217px;
+}
+.tsb_mid_01{
+float:left;
+width:310px;
+padding:0 20px;
+background:url(../image/tsb_middle_01.png) repeat-y;
+}
+.tsb_mid_02{
+float:left;
+width:504px;
+padding:0 24px 0 20px;
+background:url(../image/tsb_middle_02.png) repeat-y;
+}
+.tsb_mid_03{
+float:left;
+width:440px;
+padding:0 18px 0 10px;
+background:url(../image/tsb_middle_03.png) repeat-y;
+}
+.tsb_bottom_01{
+float:left;
+width:350px;
+height:28px;
+background:url(../image/traffic_sprite.png) no-repeat -1px -186px;
+}
+.tsb_bottom_02{
+float:left;
+width:548px;
+height:34px;
+background:url(../image/traffic_sprite.png) no-repeat -1px -122px;
+}
+.tsb_bottom_03{
+float:left;
+width:466px;
+height:28px;
+background:url(../image/traffic_sprite.png) no-repeat -1px -240px;
+}
+.traffic_step_bar{
+float:left;
+width:663px;
+margin:21px 0 0 237px;
+}
+.traffic_step_box{
+float:left;
+width:140px;
+height:41px;
+}
+.ts_number{
+float:left;
+width:41px;
+height:41px;
+color:#999560;
+
+line-height:41px;
+text-align:center;
+font-family:"microsoft yahei";
+font-size:18px;
+background: url(../image/traffic_sprite.png) no-repeat -280px -2px;
+}
+.ts_letter{
+float:left;
+height:41px;
+line-height:41px;
+font-family:"microsoft yahei";
+font-size:18px;
+margin-left:19px;
+color:#999560;
+}
+.ts_checked .ts_number{
+color:#fff;
+background: url(../image/traffic_sprite.png) no-repeat -323px -2px;
+}
+.ts_checked .ts_letter{
+color:#0a7421;
+}
+
+.ts_select_bar{
+float:left;
+background-color:#fff;
+border:1px solid #b6dd82;
+width:296px;
+margin-bottom:10px;
+ height:32px;
+ line-height:32px;
+ position:relative;
+ overflow:hidden;
+}
+.ts_select_01{
+position:absolute;
+width:300px;
+margin:-2px 0 0 -2px;
+height:36px;
+font-size:14px;
+color:#999;
+/*border:0;
+
+padding-bottom:6px;
+*/
+font-family : Trebuchet MS;
+
+}
+.ts_select_01 option{
+padding-bottom:16px;
+float:left;
+}
+.tss_input_01{
+float:left;
+height:32px;
+line-height:32px;
+border:0;
+padding:0 0 0 9px;
+color:#999;
+width:208px;
+font-size:14px;
+}
+
+.tsbtn_bar_01{
+float:left;
+width:310px;
+margin:20px 0 0 90px;
+}
+.tsbtn_bar_02{
+float:left;
+width:310px;
+margin:20px 0 0 145px;
+}
+.tsbtn_bar_04{
+float:left;
+width:300px;
+margin:10px 0 0 146px;
+}
+.ts_inmess_box{
+float:left;
+width:430px;
+margin:20px 0 0 10px;
+}
+.ts_inmess_bar{
+float:left;
+width:100%;
+height:20px;
+line-height:20px;
+
+}
+.ts_inmess_title{
+float:left;
+font-family:"microsoft yahei";
+font-size:16px;
+margin-left:10px;
+height:22px;
+line-height:22px;
+}
+.tsi_span_01{
+float:left;
+font-size:14px;
+line-height:20px;
+height:20px;
+}
+.tsi_span_02{
+float:left;
+line-height:20px;
+height:20px;
+margin:16px 0 0 17px;
+}
+.tsi_span_03{
+float:left;
+line-height:18px;
+height:18px;
+}
+.tsi_span_04{
+float:left;
+width:128px;
+text-align:right;
+line-height:20px;
+height:20px;
+}
+.tsi_span_05{
+float:left;
+width:110px;
+text-align:right;
+line-height:36px;
+height:34px;
+font-size:14px;
+}
+.tsi_span_06{
+float:left;
+width:290px;
+line-height:36px;
+height:34px;
+font-size:14px;
+}
+.tsi_span_07{
+float:left;
+text-align:right;
+height: 20px;
+line-height: 20px;
+}
+.tsi_span_08{
+float:left;
+text-align:right;
+height: 34px;
+line-height: 36px;
+font-size:14px;
+width:113px;
+}
+.tsi_span_09{
+float:left;
+height: 32px;
+line-height: 34px;
+font-size:14px;
+border: 1px solid #b6dd82;
+background-color:transparent;
+padding:0 9px;
+width:278px;
+color:#999;
+}
+.tsi_bar_01{
+float:left;
+width:420px;
+padding:0 10px 17px;
+border-bottom:1px dashed #b6dd82;
+}
+.tsi_bar_02{
+float:left;
+width:100%;
+height:20px;
+margin-top:11px;
+
+}
+.tsi_bar_03{
+float:left;
+width:100%;
+margin-top:17px;
+}
+.tsi_bar_04{
+float:left;
+width:100%;
+margin-top:10px;
+}
+.tsi_bar_05{
+float:left;
+width:100%;
+margin-bottom:10px;
+}
+.tsi_bar_06{
+float:left;
+width:420px;
+padding:0 10px 10px;
+margin-top:9px;
+border-bottom:1px dashed #b6dd82;
+}
+.tsi_bar_07{
+float:left;
+width:412px;
+margin-bottom:10px;
+}
+.tsi_bar_08{
+float:left;
+margin-left:61px;
+width:300px;
+margin-top:-4px;
+padding-bottom:10px
+}
+.tsi_text_01{
+float:left;
+margin:2px 5px 0 16px;
+*margin:-3px 3px 0 16px;
+}
+.tsi_text_03{
+float:left;
+width:104px;
+padding:0 5px;
+height:22px;
+line-height:22px;
+background:#ffffff;
+border:1px solid #b6dd82;
+margin:17px 0 0 16px;
+color:#999;
+}
+.tsi_text_04{
+float:left;
+width:276px;
+padding:0 5px 0 9px;
+height:32px;
+font-size:14px;
+line-height:32px;
+background:#ffffff;
+border:1px solid #b6dd82;
+margin:0 0 0 0;
+color:#666;
+}
+.tsi_text_05{
+float:left;
+width:250px;
+padding:0 5px 0 9px;
+height:32px;
+font-size:14px;
+line-height:32px;
+background:#ffffff;
+border:1px solid #b6dd82;
+margin:0 0 0 0;
+color:#666;
+}
+.tsi_say_letter{
+
+padding-left:18px;
+line-height:18px;
+*line-height:20px;
+background:url(../image/traffic_sprite.png) no-repeat -401px -13px;
+/*
+float:left;
+background:url(../image/traffic_sprite.png) no-repeat -401px -11px;
+*/
+}
+.tsi_say{
+float:left;
+margin-left:9px;
+cursor:pointer;
+/*
+position:relative;
+z-index:99;
+*/
+}
+.tsi_red{
+float:left;
+height: 20px;
+line-height: 20px;
+font-size:18px;
+}
+.tsi_say_box{
+position:relative;
+z-index:100;
+width:143px;
+padding:7px 10px;
+background-color:#fff;
+top:4px;
+/*
+position:absolute;
+top:25px;
+*/
+left:0;
+border:1px solid #b6dd82;
+box-shadow:4px 7px 5px 2px rgba(0,0,0,0.2);
+}
+.margin_bottom_5{
+margin-bottom:5px;
+}
+.tsi_notice{
+float:left;
+height:20px;
+line-height:20px;
+padding-left:21px;
+background:url(../image/traffic_sprite.png) no-repeat -292px -59px;
+margin: 6px 0 0 15px;
+}
+.border_red{
+border:1px solid #ff0000!important;
+}
+.false_select{
+float:left;
+height:34px;
+line-height:34px;
+color:#999;
+padding:0 6px 0 10px;
+width:282px;
+background:url(../image/traffic_sprite.png) -2px -279px;
+}
+
+/*select下拉菜单专用  start*/
+.tsi_relative{
+
+z-index:0;
+float:left;
+}
+.tsi_selebar{
+float:left;
+position:relative;
+z-index:20;
+margin-bottom:10px;
+height:34px;
+width:298px;
+}
+.tselect_bar{
+float:left;
+height:32px;
+ line-height:32px;
+ padding:1px 1px 10px;
+ width:296px;
+ background:url(../image/traffic_sprite.png) no-repeat -2px -323px;
+}
+.jquery-selectbox{
+float:left;
+height:34px;
+ line-height:34px;
+ padding:0 0 0 0;
+ width:298px;
+ z-index: 30;
+ display:inline;
+ left:0;
+ top:0;
+ position:absolute;
+background:url(../image/traffic_sprite.png) no-repeat -2px -323px;
+
+}
+.jquery-selectbox-moreButton {
+float: left;
+width: 298px;
+height: 32px;
+line-height:32px;
+cursor: pointer;
+z-index:31;
+text-align:center;
+}
+.jquery-selectbox .jquery-selectbox-list {
+display: none;
+position: absolute;
+top: 31px;
+left: 0px;
+background: #fff;
+width: 296px !important;
+height: 220px;
+padding-top:4px;
+overflow-x: hidden;
+overflow-y: auto;
+z-index: 1000;
+border: 1px solid #999;
+border-radius: 0 0 3px 3px;
+color: #444;
+}
+.jquery-selectbox .jquery-selectbox-currentItem {
+padding: 0 0 0 9px;
+white-space: nowrap;
+display: block;
+overflow: hidden;
+font-size: 14px;
+position:absolute;
+top: 1px;
+left:0;
+z-index:-1;
+cursor:pointer;
+}
+
+.jquery-selectbox.selecthover {
+z-index: 700;
+}
+
+
+
+.jquery-selectbox .jquery-selectbox-item.listelementhover {
+background: #eaeaea;
+}
+.jquery-selectbox .jquery-selectbox-item {
+display: block;
+cursor: pointer;
+padding-left:9px;
+font-size:14px;
+}
+
+		
+		
+		
+		
+/*select下拉菜单专用  end*/
