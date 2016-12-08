@@ -1,0 +1,66 @@
+.tupian img{width: 100%;margin-top: 2px;}
+.notice{width: 1080px; margin:31px auto 0px;height: 53px; border-radius:10px;border:1px solid #cccccc;
+	background:url(../images/laba_03.png) no-repeat 188px 12px;}
+.notice p{margin:20px 0 0 238px;}
+.notice{margin-bottom: 40px;}
+.first{width: 100%;height: 350px;background:#f9f8f8;}
+.first .main{width: 1080px; height: 350px;margin:0 auto;}
+.first .main .header{width: 772px;height: 100%;float: left;}
+.first .main .header nav h2{margin:6px 0 0 7px;} 
+.first .header nav{width:704px; height: 36px;margin-top:16px;background:#e70012  url(../images/toutiao_03.png) no-repeat; }
+.first .header .left{width: 345px; height: 336px;background: url(../images/shou_03.png) no-repeat;margin-top: 14px;float: left;}
+.first .header .left .images{margin-bottom: 17px;}
+.first .header .right{margin-left: 22px;float: left;}
+ .images{width: 339px;height: 47px;}
+ .float{width: 111px;height: 47px;background: #fff;float: left;margin-right: 7px;}
+ .images{margin-bottom: 17px;}
+.first .header .right .images:first-child{margin-top: 20px;}
+/*=================公用左边文字框 ==================*/
+ .images{width: 339px;height: 47px;}
+ aside .images{float: left;}
+ .five aside .clearfix {margin-bottom: 40px;}
+ .float{width: 111px;height: 47px;background: #fff;float: left;margin-right: 7px;}
+ .images{letter-spacing:2px;}
+ p{letter-spacing:2px;}
+
+
+/*=========================first右边=================*/
+/*==========================second中间===============*/
+.second{margin-top: 27px;}
+.second .header .images {margin-bottom:36px;float: left;margin-right: 23px;}
+.news{margin-top: 41px;}
+/*==========================second右边===================*/
+.second .pnoto2{width: 308px; height: 290px;}
+.second   aside .photo2 img{margin-top: 14px;}
+.second .photo2 h4{margin-top: 3px;height: 30px;width: 100%; font-size:18px;color: #853531;text-align: center;}
+.second .photo2 h4{background: url(../images/tubiao_03.png) no-repeat 80px 3px,url(../images/tubiao_03.png) no-repeat 196px 3px;}
+.second .photo2 h4{background-color: #d7d7d7;}
+.second .photo2 .top{margin-top: 26px;height: 23px;width: 100%;background: #e70012;}
+.second .photo2 .top ul{width: 100%;height: 100%;text-align: center;}
+.second .photo2 .top ul li{float: left;font-size: 14px;color: #fff;height: 100%;width:90px;position: relative;}
+.second .photo2 .top ul li img{position: absolute;top: -37px;left: 0px;}
+.second .photo2 .bottom{width: 100%;height: 125px;overflow:auto;border:1px solid #f9f8f8;background: #f9f8f8;}
+.second .photo2 .bottom table{width:270px;text-align: center;border-collapse: collapse;}
+.second .photo2 .bottom table tr{width: 260px;}
+/*=======================third中间======================*/
+.third{margin-top: 27px;}
+.third .main .header nav{position: relative;}
+.third .main .header nav img{position: absolute;top: 11px;right: 12px;}
+.third .header .top{height: 250px;width: 227px;margin-left: 1px;float: left;}
+.third .header .middle{height: 250px;width: 227px;margin-left: 12px;float: left;}
+.third .header .over{height: 250px;width: 227px;margin-left: 12px;float: left;}
+.third .header nav{margin-bottom: 14px;}
+.third .header p{margin-top: 30px;}
+.third .header .top p:nth-child(3){margin-top:6px;}
+.third .main aside .images:nth-child(2){margin-top: 0px;}
+/*======================third右边===========================*/
+.third aside .images:nth-child(2){margin-top: 23px;}
+/*=====================forth中间==============================*/
+.forth{margin-top: 27px;}
+.forth .header .images {margin-bottom:36px;float: left;margin-right: 23px;}
+.forth aside .images:nth-child(2){margin-top: 27px;}
+/*=====================five中间=============================*/
+.five{margin-top: 27px;}
+.five .header .images {margin-bottom:36px;float: left;margin-right: 23px;}
+
+/*=====================底部图片===============================*/
