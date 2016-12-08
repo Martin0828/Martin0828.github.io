@@ -4,14 +4,14 @@ define( function( require, exports, module){
 	var aA = oPro.getElementsByTagName("a");
 	
 	function initIn(){
-		var str = '<a href="https://martin0828.github.io/mobile/index.html"><img src="img/tree.jpg" alt="移动端"></a>\
-					<a><img src="img/huoying.png" alt="火盈"></a>\
-					<a><img src="img/trafic.png" alt="交通调查"></a>\
-					<a><img src="img/surway.png" alt=""></a>\
-					<a><img src="img/shop.png" alt="商城"></a>\
-					<a><img src="img/mi.png" alt=""></a>\
-					<a><img src="img/7.png" alt=""></a>\
-					<a><img src="img/8.png" alt=""></a>';
+		var str = '<a href="https://martin0828.github.io/mobile/index.html"><img src="img/mobile.png" alt="移动端"><span>移动端+原生js</span></a>\
+					<a href="https://martin0828.github.io/huoying/index.html"><img src="img/huoying.png" alt="火盈"><span>整站开发</span></a>\
+					<a href="https://martin0828.github.io/traffic/login.html"><img src="img/trafic.png" alt="交通调查"><span>交通调查</span></a>\
+					<a href="https://martin0828.github.io/shop/index.html"><img src="img/taobao.png" alt=""><span>移动端淘宝</span></a>\
+					<a href="https://martin0828.github.io/shop/index.html"><img src="img/shop.png" alt="商城"><span>购物商城</span></a>\
+					<a href="https://martin0828.github.io/mi/index.html"><img src="img/mi.png" alt=""><span>小米官网</span></a>\
+					<a href="https://martin0828.github.io/qihud/index.html"><img src="img/qihud.png" alt=""><span>企互动官网</span></a>\
+					<a href="https://martin0828.github.io/muk/index.html"><img src="img/muk.png" alt=""><span>慕课网官网</span></a>';
 
 		oPro.innerHTML=str;
 
