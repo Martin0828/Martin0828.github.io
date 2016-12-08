@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link href="css/global.css" media="screen" rel="stylesheet"
+	type="text/css" />
+<link href="css/traffic_survey.css" media="screen" rel="stylesheet"
+	type="text/css" />
+	<script type="text/javascript" src="js/survey.js"></script>
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+</head>
+<body>
+	<div id="body" class="traffic_container">
+		<div class="traffic_title_01">城六区中学和小学学生通学交通调查</div>
+		<div class="traffic_box_01">
+			<span class="traffic_home_span ts_margin_01 green">用户登录</span> <span
+				class="traffic_home_span ts_margin_02 green">填写表格</span> <span
+				class="traffic_home_span ts_margin_03 green">回答问卷</span> <span
+				class="traffic_home_span ts_margin_04 green">操作成功</span>
+		</div>
+		<div class="traffic_box_03">
+			<div class="traffic_box_02">
+				<span class="traffic_title_02">关于本次活动的概况</span>
+				<p class="traffic_home_p">
+					关于城六区中学生和小学生同学情况问卷的调查，是由于便于学校了解学生们的出行情况，好安排合理的出行时间。同时也为了提高家长接孩子回家的速度，尽量减少校门口拥堵的情况。关于城六区中学生和小学生同学情况问卷的调查，是由于便于学校了解学生们的出行情况，好安排合理的出行时间。同时也为了提高家长接孩子回家的速度，尽量减少校门口拥堵的情况。关于城六区中学生和小学生同学情况问卷的...
+				</p>
+				<form action="json/question.action" method="post" id="question">
+				<span class="traffic_link_01"><a class="green"
+					href="javascript:;" onclick="question()">问卷活动规则>></a></span>
+				</form>
+			</div>
+			<span class="traffic_box_04"> 
+				<input type="button"
+					value="学生登录" class="ts_btn ts_margin_05" onclick="studentLogin()"/> 
+				<input type="button"
+					value="学校登录" class="ts_btn" onclick="teacherLogin()"/>
+			</span>
+		</div>
+	</div>
+</body>
+</html>
