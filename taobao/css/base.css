@@ -1,0 +1,22 @@
+.cl::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+body {
+    font-size: 12px;
+}
