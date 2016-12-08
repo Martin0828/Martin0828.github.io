@@ -1,0 +1,13 @@
+.trade{width: 706px;float: left;}
+.trade h5{width: 706px;border:none;border-bottom: 1px solid #000;}
+.trade h5 span{border-bottom:7px solid #000;}
+.trade .trade-one{width: 100%;height: 233px;margin-top: 79px; }
+.trade .trade-two{width: 333px;height:100%;float: left;}
+.trade .trade-two h1{font-size: 22px;font-weight: bold;margin-left: 23px;}
+.trade .trade-three{float: right;width: 320px;}
+.trade .trade-three .nav{width: 320px;height:37px;background:#e70012 url(../images/toutiao_03.png) no-repeat ;position: relative;border-top: 1px solid #e70012;float: none; margin: 0px;}
+.trade .trade-three .nav h4{font-size: 24px;font-weight: bold;margin-left:4px;color: #fff;}
+.trade .trade-four{width: 100%;height: 47px;margin-top: 17px;}
+.trade .trade-four .float{width: 111px;height: 47px;background:#909090;float: left;}
+.trade .trade-five{width: 100%;clear:both;margin-top: 50px;}
+.trade .trade-five h1{font-size: 22px;font-weight: bold;margin-left: 23px;}

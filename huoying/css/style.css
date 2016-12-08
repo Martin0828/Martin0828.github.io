@@ -1,0 +1,29 @@
+/*=================头部====================*/
+.title{width: 100%;height: 34px;background: #f5f5f5;}
+.title p{margin-left:120px;line-height: 20px;}
+.logo{width: 1080px;height:154px;margin:0 auto; background: url(../images/shouye_03.png) no-repeat 0px 47px;}
+header nav{width: 100%;height: 43px;background:#ff0000;}
+header nav>ul{width: 1080px;height: 43px;margin:0 auto;}
+header nav>ul>li{float: left;width: 12%;height: 100%;text-align: center;position: relative;}
+header nav>ul>li:nth-child(odd){background: #cc0000;}
+header nav>ul>li:first-child{width: 16%;background:#333333 url(../images/fangzi_03.png) no-repeat 32px 11px; }
+header nav>ul>li>ul{position: absolute;z-index: 1;top: 43px;display: none;}
+a{font-size: 14px; color:#fff;line-height: 43px; }
+header nav>ul>li>ul{width: 100%;}
+header nav>ul>li:hover ul{display: block;}
+header nav>ul>li>ul>li:hover{background: #cc0000;}
+header nav>ul>li>ul>li{background: #ff0000;margin-top: 1px;}
+header nav>ul>li>ul>li:first-child{margin-top: 0px;}
+/*=======================尾部照片========================*/
+.picture{width: 100%;height: 193px;margin-bottom: 35px;margin-top: 39px;}
+.picture img{width: 100%;}
+/*=======================尾部导航栏======================*/
+.bottom{width: 100%;height: 43px; background: #666666;border-bottom: 1px solid #666666;}
+.bottom nav{width: 1080px;margin:0 auto;height: 43px;border-bottom: 1px solid #666666;}
+.bottom nav>ul>li{float: left;height:30px;text-align: center;width:130px;margin-top: 6px;}
+.bottom nav>ul>li{border-right:1px dotted #fff; }
+.bottom nav>ul>li a{line-height: 30px;}
+/*=======================版权=======================*/
+footer{width:100%;height: 250px;background:#e8e8e8 url(../images/logo2_03.png) no-repeat 373px 59px;border-top: 1px solid #666666;}
+footer p:first-child{margin:143px 0px 0px 390px;}
+footer p:last-child{margin:11px 0 0 208px;}
