@@ -66,7 +66,8 @@ define( function( require, exports, module ){
 						}, 1000);
 						setTimeout(function(){
 							require("pageTwo.js").initOut(canvas);
-						}, 1500)
+						}, 1500);
+						require("pageFour.js").initOut();
 						break;
 						case -3:
 						setTimeout(function(){
