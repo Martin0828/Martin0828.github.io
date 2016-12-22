@@ -124,6 +124,7 @@ body {
   background: #c8c8c8;
   height: 1.5rem;
   font-size: 1rem;
+  line-height: 1.5rem;
 }
 .wrap div {
   position: absolute;
@@ -155,6 +156,7 @@ body {
   background: #ff6700;
   font-size: 1.3rem;
   height: 1.3rem;
+  line-height: 1.3rem;
 }
 .program {
   position: absolute;
