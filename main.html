@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>手机端简历</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+	<link rel="stylesheet" href="css/mobile.css">
+</head>
+<script>
+window.onload=function(){
+	document.getElementsByTagName("html")[0].style.fontSize=document.documentElement.clientWidth/15+"px";
+	document.body.addEventListener('touchstart', function(){ });
+	var arrowUp=document.getElementsByClassName("arrowUp")[0];
+	var arrowDown=document.getElementsByClassName("arrowDown")[0];
+	var section=document.getElementsByTagName("section");
+
+	arrowUp.addEventListener("touchend",fnUp,false);
+	arrowDown.addEventListener("touchend",fnDown,false);
+
+	var num=0;
+	function fnDown(){
+		num++;
+		if(num>3){
+			num=3;
+		}
+		for(var i=0;i<section.length;i++){
+			section[i].style.opacity=0;
+		}
+		section[num].style.opacity=1;
+	}
+
+	function fnUp(){
+		num--;
+		if(num<0){
+			num=0;
+		}
+		for(var i=0;i<section.length;i++){
+			section[i].style.opacity=0;
+		}
+		section[num].style.opacity=1;
+	}
+
+
+}
+</script>
+<body>
+		
+
+	<div id="container">
+		<div>
+			<img class="arrow arrowUp" src="img/arrow-up.png" alt="向上箭头"><img class="arrow arrowDown" src="img/arrow-up.png" alt="向下箭头">
+		</div>
+
+		<!-- ========================简介页开始====================== -->
+
+	    <section id="page-one" data-hash="message">
+			<div class="intro">
+				<h2 class="tip">热爱技术,喜欢前端</h2>
+				<p class="tip-title">越努力,越幸运</p>
+				<div class="top">
+					<div class="photo"></div>
+					<div class="wrap">
+						<h2>基本资料</h2>
+						<div class="paper">
+							<span>姓名 : 侯少东</span>
+							<div>
+								<span>年龄 : 24</span>
+								<div>
+									<span>毕业院校 : 河北科技大学</span>
+									<div>
+										<span>学历 : 本科一批</span>
+										<div>
+											<span>家乡 : 河北</span>
+											<div>
+												<span>爱好 : 读书 爬山</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+		</section>
+
+	    <!-- ========================简介页结束====================== -->
+
+	    <!-- ========================技能页开始====================== -->
+
+	    <section id="page-two" class="hide" data-hash="skill">
+			<ul class="ability">
+			 	<li class="topic">结构</li>
+				<li>PC端页面布局</li>
+				<li>书写语义化标签</li>
+				<li>移动端页面布局</li>
+				<li>了解H5新特性</li>
+			</ul>
+			<ul class="ability">
+				<li class="topic">样式</li>
+				<li>掌握CSS代码复用</li>
+				<li>熟练运用CSS及CSS3新特性</li>
+				<li>了解各大浏览器兼容性</li>
+				<li>掌握Less编译器</li>
+			</ul>
+			<ul class="ability">
+				<li class="topic">行为</li>
+				<li>熟悉原生JS语法</li>
+				<li>熟练使用JQuery库</li>
+				<li>了解JS原型设计</li>
+				<li>了解JS性能优化</li>
+			</ul>
+			<ul class="ability">
+				<li class="topic">框架</li>
+				<li>了解Angular</li>
+				<li>移动端Zepto的使用</li>
+				<li>Bootstrap的使用</li>
+				<li>了解php,mysql</li>
+			</ul>
+			<ul class="ability">
+				<li class="topic">工具</li>
+				<li>SeaJs模块化开发</li>
+				<li>Grunt工具</li>
+				<li>PS熟练使用</li>
+			</ul>
+	    </section>
+
+	    <!-- ========================技能页结束====================== -->
+
+	    <!-- ========================作品页开始====================== -->
+
+	    <section id="page-three" class="hide" data-hash="job">
+				<h3>我的作品</h3>
+				<div class="project">
+
+					<a href="https://martin0828.github.io/mobile/index.html" target="_blank"><img src="img/mobile.png" alt="移动端"></a>
+					<a href="https://martin0828.github.io/huoying/index.html"  target="_blank"><img src="img/huoying.png" alt="火盈"></a>
+					<a href="https://martin0828.github.io/shop/index.html"  target="_blank"><img src="img/taobao.png" alt=""></a>
+					<a href="https://martin0828.github.io/mi/index.html"  target="_blank"><img src="img/mi.png" alt=""></a>
+
+				</div>
+	    </section>
+
+	    <!-- ========================作品页结束====================== -->
+
+	    <!-- ========================结束页开始====================== -->
+
+	    <section id="page-four" class="hide" data-hash="project">
+			<p class="footer">感谢您花时间阅读我的简历<br>期待能有机会和您共事</p>	
+			<p class="tel">Q Q: 945144380<br>电话: 15614385648<br>邮箱: 945144380@qq.com</p>
+	    </section>
+
+	    <!-- ========================结束页结束====================== -->
+	</div>
+</body>
+</html>
