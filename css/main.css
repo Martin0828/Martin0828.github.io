@@ -253,7 +253,7 @@ body {
 /*===============技能介绍========================*/
 .ability {
 	position: absolute;
-	top: 42%;
+	top: 38%;
 	opacity: 0;
 	border: 1px solid #fff;
 	transform: translateX( -50% );
