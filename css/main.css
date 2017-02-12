@@ -251,6 +251,9 @@ body {
 }
 	
 /*===============技能介绍========================*/
+canvas{
+	float: none !important;
+}
 .ability {
 	position: absolute;
 	top: 38%;
